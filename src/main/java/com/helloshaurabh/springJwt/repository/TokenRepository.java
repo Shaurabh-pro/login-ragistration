@@ -1,8 +1,9 @@
-package com.helloIftekhar.springJwt.repository;
+package com.helloshaurabh.springJwt.repository;
 
-import com.helloIftekhar.springJwt.model.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+
+import com.helloshaurabh.springJwt.model.Token;
 
 import java.util.List;
 import java.util.Optional;

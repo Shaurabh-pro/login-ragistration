@@ -1,16 +1,17 @@
-package com.helloIftekhar.springJwt.service;
+package com.helloshaurabh.springJwt.service;
 
 
-import com.helloIftekhar.springJwt.model.AuthenticationResponse;
-import com.helloIftekhar.springJwt.model.Role;
-import com.helloIftekhar.springJwt.model.Token;
-import com.helloIftekhar.springJwt.model.User;
-import com.helloIftekhar.springJwt.repository.TokenRepository;
-import com.helloIftekhar.springJwt.repository.UserRepository;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.helloshaurabh.springJwt.model.AuthenticationResponse;
+import com.helloshaurabh.springJwt.model.Role;
+import com.helloshaurabh.springJwt.model.Token;
+import com.helloshaurabh.springJwt.model.User;
+import com.helloshaurabh.springJwt.repository.TokenRepository;
+import com.helloshaurabh.springJwt.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

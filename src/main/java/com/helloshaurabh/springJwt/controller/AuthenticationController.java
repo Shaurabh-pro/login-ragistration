@@ -1,12 +1,13 @@
-package com.helloIftekhar.springJwt.controller;
+package com.helloshaurabh.springJwt.controller;
 
-import com.helloIftekhar.springJwt.model.AuthenticationResponse;
-import com.helloIftekhar.springJwt.model.User;
-import com.helloIftekhar.springJwt.service.AuthenticationService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.helloshaurabh.springJwt.model.AuthenticationResponse;
+import com.helloshaurabh.springJwt.model.User;
+import com.helloshaurabh.springJwt.service.AuthenticationService;
 
 @RestController
 public class AuthenticationController {

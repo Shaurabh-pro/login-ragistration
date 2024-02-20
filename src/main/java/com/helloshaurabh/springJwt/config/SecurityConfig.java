@@ -1,8 +1,5 @@
-package com.helloIftekhar.springJwt.config;
+package com.helloshaurabh.springJwt.config;
 
-
-import com.helloIftekhar.springJwt.filter.JwtAuthenticationFilter;
-import com.helloIftekhar.springJwt.service.UserDetailsServiceImp;
 
 import ch.qos.logback.core.net.SyslogOutputStream;
 import jakarta.servlet.http.HttpServletResponse;
@@ -22,6 +19,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.HttpStatusEntryPoint;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+import com.helloshaurabh.springJwt.filter.JwtAuthenticationFilter;
+import com.helloshaurabh.springJwt.service.UserDetailsServiceImp;
 
 @Configuration
 @EnableWebSecurity
